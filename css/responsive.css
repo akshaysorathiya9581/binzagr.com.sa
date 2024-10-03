@@ -1,0 +1,262 @@
+/* For Largest Screen */
+
+@media screen and (min-width: 1399px) {}
+
+
+/* Small Laptop and LCD Screen */
+
+@media screen and (max-width: 1199px) {
+    .product-single {
+        width: 23%;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .product-single {
+        width: 31%;
+    }
+}
+
+
+/* Tablet Layout: 768px.*/
+
+@media screen and (max-width: 991px) {
+    .sidebar {
+        width: 0;
+    }
+    .sidebar.sidebar-toggler {
+        width: 315px;
+        box-shadow: 0 0 8px 0px rgb(0 0 0 / 50%);
+    }
+    .sidebar .logo-section {
+        padding: 20px;
+        padding-right: 45px;
+    }
+    .sidebar .site {
+        width: 0;
+        padding: 0;
+    }
+    .sidebar .site a {
+        display: none;
+    }
+    .sidebar.sidebar-toggler .site {
+        width: 298px;
+        padding-top: 20px;
+        padding-bottom: 15px;
+    }
+    .sidebar.sidebar-toggler .site a {
+        display: inline-block;
+    }
+    .main-content {
+        padding-top: 35px;
+        padding-bottom: 15px;
+        margin-left: 0;
+        padding-left: 0;
+    }
+    .main-content .details {
+        height: auto;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 0 25px;
+        padding-bottom: 15px;
+    }
+    .menu {
+        display: block;
+    }
+    .about-main {
+        padding: 50px 25px;
+    }
+    .about-main .img-main {
+        padding: 40px 0;
+    }
+    .about-main .img-main .img-content {
+        padding: 0;
+    }
+    .searchbar {
+        padding: 10px 25px;
+    }
+    .product-grid {
+        margin: 0;
+        padding: 30px 15px;
+        padding-bottom: 55px;
+    }
+    .product-single {
+        width: 32%;
+    }
+    .product-details {
+        padding: 30px 25px;
+    }
+}
+
+
+/* Mobile Layout: 320px. */
+
+
+/* Max Wide Mobile Layout: 600px. */
+
+@media screen and (max-width: 767px) {
+    .home-main {
+        padding: 100px 25px;
+        padding-bottom: 60px;
+    }
+    .logo-main img {
+        width: 56%;
+    }
+    .home-product {
+        padding: 13px 13px;
+    }
+    .home-main .inn {
+        padding-top: 50px;
+        padding-bottom: 45px;
+    }
+    .sidebar nav ul li a {
+        padding: 12px 45px;
+        padding-right: 35px;
+        line-height: 18px;
+        font-size: 14px;
+    }
+    .sidebar .logo-section img {
+        width: 100%;
+    }
+    .compaies-main .compaies-inn {
+        padding: 0;
+        padding-right: 0;
+    }
+    .compaies-main {
+        padding: 50px 10px;
+    }
+    .compaies-main h1 {
+        font-size: 32px;
+        line-height: 44px;
+        margin-bottom: 20px;
+    }
+    .company-gallery .p-left {
+        padding-left: 15px;
+    }
+    .company-gallery .p-right {
+        padding-right: 15px;
+    }
+    .company-gallery .img-main {
+        padding-bottom: 0;
+        padding-top: 20px;
+    }
+    .product-single {
+        width: 47%;
+    }
+    .product-details .img-main {
+        padding: 25px;
+    }
+    .product-details .product-details-des {
+        margin-top: 20px;
+        height: auto;
+        padding: 20px;
+    }
+    .login-nav-tab {
+        top: 15px;
+        right: 15px;
+    }
+    .cmn-modal .modal-body {
+        padding: 20px;
+    }
+    .cmn-modal h2 {
+        margin-bottom: 35px;
+        font-size: 30px;
+    }
+    .cmn-modal .form-group {
+        margin-bottom: 25px;
+    }
+    .cmn-modal .button-group .btn {
+        font-size: 17px;
+        padding: 8px 20px;
+    }
+    .cmn-modal .more-link {
+        margin-bottom: 15px;
+    }
+    .cmn-modal .modal-dialog {
+        margin: 50px auto;
+    }
+}
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media screen and (max-width: 575px) {
+    .about-main .img-main {
+        padding: 30px 0;
+    }
+    .compaies-main h1 {
+        font-size: 28px;
+        line-height: 40px;
+        margin-bottom: 15px;
+    }
+    .logo-main img {
+        width: 290px;
+    }
+    .home-main {
+        padding: 90px 25px;
+        padding-bottom: 50px;
+    }
+    .home-product {
+        padding: 13px 13px;
+        background-color: #fff;
+        display: block;
+    }
+    .home-product .content {
+        width: 100%;
+        height: 230px;
+    }
+    .home-product .content-l {
+        margin-left: 0;
+        margin-top: 0;
+    }
+    .home-product .content-f {
+        margin-right: 0;
+    }
+    .home-main .inn {
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+    .logo-main {
+        padding-bottom: 35px;
+    }
+    .searchbar {
+        display: block;
+        text-align: center;
+    }
+    .searchbar .searchbox {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .product-grid {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .product-single {
+        width: 100%;
+        margin: 0;
+    }
+    .product-single .product-inn {
+        margin: 10px 25px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .compaies-main h1 {
+        font-size: 26px;
+        line-height: 38px;
+        margin-bottom: 15px;
+    }
+    .product-grid {
+        padding-bottom: 45px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .logo-main img {
+        width: 270px;
+    }
+}
